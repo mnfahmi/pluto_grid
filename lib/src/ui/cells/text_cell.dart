@@ -231,7 +231,7 @@ mixin TextCellState<T extends TextCell> on State<T> implements TextFieldProps {
       cellFocus.requestFocus();
     }
 
-    return TextField(
+    return TextAreaField(
       focusNode: cellFocus,
       controller: _textController,
       readOnly: widget.column.checkReadOnly(widget.row, widget.cell),
