@@ -246,7 +246,7 @@ mixin TextCellState<T extends TextCell> on State<T> implements TextFieldProps {
         ),
         contentPadding: EdgeInsets.zero,
       ),
-      maxLines: 1,
+      maxLines: 5,
       keyboardType: keyboardType,
       inputFormatters: inputFormatters,
       textAlignVertical: TextAlignVertical.center,
